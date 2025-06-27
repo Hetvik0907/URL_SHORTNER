@@ -1,8 +1,12 @@
 import React from 'react'
+import UrlShortener from './components/Urlform'
 
 const App = () => {
+  
   return (
-    <div>App</div>
+    <>
+      <UrlShortener />
+    </>
   )
 }
 
