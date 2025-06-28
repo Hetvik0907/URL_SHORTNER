@@ -17,7 +17,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://your-frontend-name.onrender.com"
+  "https://url-shortner-1-pwka.onrender.com"
 ];
 
 app.use(cors({
