@@ -8,7 +8,7 @@ import auth_routes from "./src/routes/auth.routes.js"
 import { redirectFromShortUrl } from "./src/controller/short_url.controller.js";
 import { errorHandler } from "./src/utils/errorhandler.js";
 import cors from "cors"
-import { attachUser } from "./src/utils/attachUser.js";
+import { attachUser } from "./src/utils/attachuser.js";
 import cookieParser from "cookie-parser"
 
 dotenv.config("./.env")
