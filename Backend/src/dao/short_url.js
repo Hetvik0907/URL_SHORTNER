@@ -1,6 +1,6 @@
 
 import urlSchema from "../models/short_url.model.js";
-import { ConflictError } from "../utils/errorHandler.js";
+import { ConflictError } from "../utils/errorhandler.js";
 
 export const saveShortUrl = async (shortUrl, longUrl, userId) => {
     try{
