@@ -1,20 +1,4 @@
-// import User from "../models/user.model.js";
 
-// export const getuserbyid = async(id)=>{
-//   return await User.findById(id);
-// }
-
-// export const getuserbyemail = async(email)=>{
-//   return await User.findOne({email});
-// }
-
-// export const createuser = async(name,email,password)=>{
-//   return await User.create({
-//     name,
-//     email,
-//     password
-//   })
-// }
 import User from "../models/user.model.js"
 import UrlModel from "../models/short_url.model.js"
 

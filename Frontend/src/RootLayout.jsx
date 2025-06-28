@@ -8,7 +8,11 @@ import Navbar from './components/NavBar'
 const RootLayout = () => {
   return (
     <>
+  
       <Navbar/>
+   
+  
+      
       <Outlet/>
     </>
   )

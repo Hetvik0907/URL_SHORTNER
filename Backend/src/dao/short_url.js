@@ -1,25 +1,4 @@
-// import ShortUrl from "../models/shorturl.models.js"
-// export const saveshorturl = async(url,shorturl,user)=>{
-//   const newurl = await ShortUrl.create({
-//     longUrl:url,
-//     shortUrl:shorturl
-//   })
-//   if(user){
-//     newurl.user=user
-//   }
-// }
 
-// export const getShortUrl = async (shorturl) => {
-//   return await ShortUrl.findOneAndUpdate(
-//     { shortUrl: shorturl },
-//     { $inc: { clicks: 1 } },
-//     { new: true } 
-//   );
-// };
-
-// export const getcustomshorturl = async (slug) => {
-//   return await ShortUrl.findOne({ shortUrl: slug });
-// };
 import urlSchema from "../models/short_url.model.js";
 import { ConflictError } from "../utils/errorHandler.js";
 
