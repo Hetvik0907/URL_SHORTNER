@@ -6,7 +6,7 @@ import short_url from "./src/routes/short_url.route.js"
 import user_routes from "./src/routes/user.routes.js"
 import auth_routes from "./src/routes/auth.routes.js"
 import { redirectFromShortUrl } from "./src/controller/short_url.controller.js";
-import { errorHandler } from "./src/utils/errorHandler.js";
+import { errorHandler } from "./src/utils/errorhandler.js";
 import cors from "cors"
 import { attachUser } from "./src/utils/attachUser.js";
 import cookieParser from "cookie-parser"
