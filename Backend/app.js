@@ -15,9 +15,14 @@ dotenv.config("./.env")
 
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://your-frontend-name.onrender.com"
+];
+
 app.use(cors({
-    origin: 'http://localhost:5173', // your React app
-    credentials: true // 👈 this allows cookies to be sent
+  origin: allowedOrigins,
+  credentials: true,
 }));
 
 app.use(express.json())
